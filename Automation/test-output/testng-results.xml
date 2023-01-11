@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-04T02:49:19 PST" name="Suite" finished-at="2023-01-04T02:49:20 PST" duration-ms="641">
+    <groups>
+    </groups>
+    <test started-at="2023-01-04T02:49:19 PST" name="Test" finished-at="2023-01-04T02:49:20 PST" duration-ms="641">
+      <class name="TestNG.Test2">
+        <test-method signature="Ademo1()[pri:0, instance:TestNG.Test2@a3d8174]" started-at="2023-01-04T02:49:19 PST" name="Ademo1" finished-at="2023-01-04T02:49:19 PST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ademo1 -->
+        <test-method signature="Bdemo3()[pri:0, instance:TestNG.Test2@a3d8174]" started-at="2023-01-04T02:49:19 PST" name="Bdemo3" finished-at="2023-01-04T02:49:19 PST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bdemo3 -->
+        <test-method signature="ademo2()[pri:0, instance:TestNG.Test2@a3d8174]" started-at="2023-01-04T02:49:19 PST" name="ademo2" finished-at="2023-01-04T02:49:19 PST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ademo2 -->
+      </class> <!-- TestNG.Test2 -->
+      <class name="TestNG.Test1">
+        <test-method signature="ademo2()[pri:0, instance:TestNG.Test1@1ba9117e]" started-at="2023-01-04T02:49:19 PST" name="ademo2" finished-at="2023-01-04T02:49:19 PST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ademo2 -->
+        <test-method signature="bdemo1()[pri:0, instance:TestNG.Test1@1ba9117e]" started-at="2023-01-04T02:49:19 PST" name="bdemo1" finished-at="2023-01-04T02:49:19 PST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bdemo1 -->
+        <test-method signature="cdemo3()[pri:0, instance:TestNG.Test1@1ba9117e]" started-at="2023-01-04T02:49:19 PST" name="cdemo3" finished-at="2023-01-04T02:49:19 PST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cdemo3 -->
+      </class> <!-- TestNG.Test1 -->
+      <class name="TestNG.InvocationCount">
+        <test-method signature="demoTest()[pri:0, instance:TestNG.InvocationCount@34f7cfd9]" started-at="2023-01-04T02:49:19 PST" name="demoTest" finished-at="2023-01-04T02:49:19 PST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method signature="demoTest()[pri:0, instance:TestNG.InvocationCount@34f7cfd9]" started-at="2023-01-04T02:49:19 PST" name="demoTest" finished-at="2023-01-04T02:49:19 PST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method signature="demoTest()[pri:0, instance:TestNG.InvocationCount@34f7cfd9]" started-at="2023-01-04T02:49:19 PST" name="demoTest" finished-at="2023-01-04T02:49:19 PST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method signature="demoTest()[pri:0, instance:TestNG.InvocationCount@34f7cfd9]" started-at="2023-01-04T02:49:19 PST" name="demoTest" finished-at="2023-01-04T02:49:19 PST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method signature="demoTest()[pri:0, instance:TestNG.InvocationCount@34f7cfd9]" started-at="2023-01-04T02:49:19 PST" name="demoTest" finished-at="2023-01-04T02:49:19 PST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+      </class> <!-- TestNG.InvocationCount -->
+      <class name="TestNG.DependOnMethods">
+        <test-method signature="login()[pri:1, instance:TestNG.DependOnMethods@625732]" started-at="2023-01-04T02:49:20 PST" name="login" finished-at="2023-01-04T02:49:20 PST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="search()[pri:0, instance:TestNG.DependOnMethods@625732]" started-at="2023-01-04T02:49:20 PST" name="search" finished-at="2023-01-04T02:49:20 PST" depends-on-methods="TestNG.DependOnMethods.login" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="select()[pri:0, instance:TestNG.DependOnMethods@625732]" started-at="2023-01-04T02:49:20 PST" name="select" finished-at="2023-01-04T02:49:20 PST" depends-on-methods="TestNG.DependOnMethods.search" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+        <test-method signature="addToCard()[pri:0, instance:TestNG.DependOnMethods@625732]" started-at="2023-01-04T02:49:20 PST" name="addToCard" finished-at="2023-01-04T02:49:20 PST" depends-on-methods="TestNG.DependOnMethods.select" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCard -->
+        <test-method signature="payment()[pri:0, instance:TestNG.DependOnMethods@625732]" started-at="2023-01-04T02:49:20 PST" name="payment" finished-at="2023-01-04T02:49:20 PST" depends-on-methods="TestNG.DependOnMethods.addToCard" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method signature="logout()[pri:0, instance:TestNG.DependOnMethods@625732]" started-at="2023-01-04T02:49:20 PST" name="logout" finished-at="2023-01-04T02:49:20 PST" depends-on-methods="TestNG.DependOnMethods.payment" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestNG.DependOnMethods -->
+      <class name="TestNG.DataProvider">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider@51dcb805]" started-at="2023-01-04T02:49:20 PST" name="test" data-provider="data" finished-at="2023-01-04T02:49:20 PST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[New Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider@51dcb805]" started-at="2023-01-04T02:49:20 PST" name="test" data-provider="data" finished-at="2023-01-04T02:49:20 PST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lucknow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider@51dcb805]" started-at="2023-01-04T02:49:20 PST" name="test" data-provider="data" finished-at="2023-01-04T02:49:20 PST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bangluru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- TestNG.DataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
